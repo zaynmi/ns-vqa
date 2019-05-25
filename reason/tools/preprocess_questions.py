@@ -7,7 +7,8 @@ import json
 
 import h5py
 import numpy as np
-
+import sys
+sys.path.append("/home/tang/ns-vqa-master/reason")
 import utils.programs as program_utils
 import utils.preprocess as preprocess_utils
 import utils.utils as utils
