@@ -136,7 +136,7 @@ cd {repo_root}/reason
 python tools/run_test.py \
     --run_dir ../data/reason/results \
     --load_checkpoint_path ../data/pretrained/question_parser.pt \
-    --clevr_val_scene_path ../data/attr_net/results/clevr_val_scenes_parsed_pretrained.json \
+    --clevr_val_scene_path ../data/attr_net/results/clevr_val_scenes_parsed_GT.json \
     --save_result_path ../data/reason/results/result_pretrained.json
 ```
 The result statistics can be found in the output file `{repo_root}/data/reason/results/result_pretrained.json`. The pretrained model will yield an overall question answering accuracy of 99.8%, same as reported in the paper.
