@@ -1,3 +1,5 @@
+import sys
+sys.path.append("/home/tang/ns-vqa-master/reason")
 from options.train_options import TrainOptions
 from datasets import get_dataloader
 from executors import get_executor
